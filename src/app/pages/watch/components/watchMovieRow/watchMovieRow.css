@@ -1,0 +1,86 @@
+/* -----> WatchMovieRow Container <----- */
+.WatchMovieRow-container {
+    width: 100%;
+    margin: auto;
+    padding: 20px 100px;
+    background-color: #1b1b1b;
+}
+.WatchMovieRow-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----> WatchMovieRow Title <----- */
+.WatchMovieRow-container > h2 {
+    margin-bottom: 5px;
+    color: #e5e5e5;
+}
+
+/* -----> WatchMovieRow List <----- */
+.WatchMovieRow-listArea {
+    overflow-x: hidden;
+}
+.WatchMovieRow-list {
+    transition: 0.4s;
+}
+
+/* -----> WatchMovieRow Ite <----- */
+.WatchMovieRow-item {
+    cursor: pointer;
+    display: inline-block;
+    width: 170px;
+}
+.WatchMovieRow-item img {
+    width: 170px;
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+.WatchMovieRow-item img:hover {
+    transform: scale(1);
+}
+
+/* -----> WatchMovieRow List <----- */
+.WatchMovieRow-left, 
+.WatchMovieRow-right {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 98;
+    opacity: 0;
+    transition: 0.4s;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.3px);
+    -webkit-backdrop-filter: blur(15.3px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.WatchMovieRow-left {
+    left: 40px;
+} 
+.WatchMovieRow-right {
+    right: 40px;
+}
+.WatchMovieRow-container:hover .WatchMovieRow-left,
+.WatchMovieRow-container:hover .WatchMovieRow-right {
+    opacity: 1;
+}
+
+/* -----> WatchMovieRow Media Query <----- */
+@media (max-width: 900px) {
+    .WatchMovieRow-container {
+        padding: 20px 60px;
+    }
+    .WatchMovieRow-container > h2 {
+        font-size: 22px;
+    }
+    .WatchMovieRow-left {
+        left: 10px;
+    } 
+    .WatchMovieRow-right {
+        right: 10px;
+    }
+}

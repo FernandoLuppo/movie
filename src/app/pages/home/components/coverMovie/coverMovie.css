@@ -1,0 +1,90 @@
+/* -----> CoverMovie Container <----- */
+.CoverMovie-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.CoverMovie-gradient-x {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.CoverMovie-gradient-y {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+    background: linear-gradient(to right, #111 35%, transparent 65%);
+}
+
+/* -----> CoverMovie Text <----- */
+.CoverMovie-gradient-y h1 {
+    font-size: 60px;
+    color: #f7f7f7;
+}
+.CoverMovie-description {
+    display: flex;
+    gap: 15px;
+}
+.CoverMovie-description > div {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.CoverMovie-description > div:last-of-type {
+    color: #ececec;
+}
+.CoverMovie-positive-vote {
+    color: #46d369;
+}
+.CoverMovie-negative-vote {
+    color: #d39b46;
+}
+.CoverMovie-overview {
+    max-width: 40%;
+    margin-top: 15px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 10; 
+    -webkit-box-orient: vertical; 
+    color: #999;
+}
+
+/* -----> CoverMovie Button <----- */
+.CoverMovie-buttons {
+    margin-top: 15px;
+}
+.CoverMovie-buttons a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+.CoverMovie-buttons button {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    opacity: 1;
+    background-color: #7e3030;
+}
+.CoverMovie-buttons button:hover {
+    opacity: 0.8;
+}
+
+/* -----> CoverMovie Media Query <----- */
+@media (max-width: 700px) {
+    .CoverMovie-container {
+        display: none;
+    }
+}

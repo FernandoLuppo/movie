@@ -1,0 +1,87 @@
+/* -----> MovieRow Container <----- */
+.MovieRow-container {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0 100px;
+}
+.MovieRow-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----> MovieRow Title <----- */
+.MovieRow-container > h2 {
+    margin-bottom: 5px;
+    color: #e5e5e5;
+}
+
+/* -----> MovieRow List <----- */
+.MovieRow-listArea {
+    overflow-x: hidden;
+}
+.MovieRow-list {
+    transition: 0.4s;
+}
+
+/* -----> MovieRow Ite <----- */
+.MovieRow-item {
+    cursor: pointer;
+    display: inline-block;
+    width: 170px;
+}
+.MovieRow-item img {
+    width: 170px;
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+.MovieRow-item img:hover {
+    transform: scale(1);
+}
+
+/* -----> MovieRow List <----- */
+.MovieRow-left, 
+.MovieRow-right {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 98;
+    opacity: 0;
+    transition: 0.4s;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.3px);
+    -webkit-backdrop-filter: blur(15.3px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.MovieRow-left {
+    left: 40px;
+} 
+.MovieRow-right {
+    right: 40px;
+}
+.MovieRow-container:hover .MovieRow-left,
+.MovieRow-container:hover .MovieRow-right {
+    opacity: 1;
+}
+
+/* -----> MovieRow Media Query <----- */
+@media (max-width: 700px) {
+    .MovieRow-container {
+        padding: 0 60px;
+    }
+    .MovieRow-container > h2 {
+        font-size: 22px;
+    }
+    .MovieRow-left {
+        left: 10px;
+    } 
+    .MovieRow-right {
+        right: 10px;
+    }
+}

@@ -1,0 +1,5 @@
+export * from "./home/Home"
+export * from "./login/Login"
+export * from "./register/Register"
+export * from "./watch/Watch"
+export * from "./password/index"

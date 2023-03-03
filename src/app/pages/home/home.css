@@ -1,0 +1,28 @@
+/* -----> Home Container <----- */
+.Home-container {
+    min-height: 100vh;
+    background-color: #111
+}
+.Home-container > section {
+    margin-top: -150px;
+}
+
+/* -----> Home Footer <----- */
+footer {
+    padding: 50px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #595959;
+}
+footer a {
+    text-decoration: none;
+    color: #595959;
+}
+
+/* -----> Home Media Query <----- */
+@media (max-width: 700px) {
+    .Home-container > section {
+        margin-top: 0;
+        padding-top: 200px;
+    }
+}

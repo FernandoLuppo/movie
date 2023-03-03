@@ -1,0 +1,130 @@
+/* -----> Header Container <----- */
+header {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    background: transparent;
+}
+.Header-black {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.7px);
+    -webkit-backdrop-filter: blur(16.7px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+header > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+/* -----> Header Logo <----- */
+.Header-logo > a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.Header-logo h1 {
+    color: #ececec;
+}
+.Header-logo img {
+    height: 50px;
+}
+
+/* -----> Header Nav <----- */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav > button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    color: #ececec;
+    background-color: #7e3030;
+}
+nav > button:hover {
+    background-color: #391a1a;
+}
+
+/* -----> Header Search Bar <----- */
+.Header-search {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3px;
+}
+.Header-search > div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+.Header-search input {
+    width: 230px;
+    padding: 7px 35px 7px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.8px);
+    -webkit-backdrop-filter: blur(15.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Header-search-icon {
+    position: absolute;
+    right: 15px;
+}
+.Header-search-container {
+    display: none;
+    max-height: 275px;
+    width: 100%;
+    position: absolute;
+    top: 34px;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #111111;
+}
+.Header-search-container span {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+    transition: 0.2s;
+    color: #f7f7f7;
+}
+.Header-search-container span:hover {
+    color: #7E3030;
+}
+
+/* -----> Header Media Query <----- */
+@media (max-width: 700px) {
+    header {
+        justify-content: center;
+        height: 130px;
+    }
+    header > div {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

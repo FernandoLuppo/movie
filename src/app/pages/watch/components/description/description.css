@@ -1,0 +1,60 @@
+/* -----> Description Container <----- */
+.Description-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px 0;
+}
+
+/* -----> Description Img <----- */
+.Description-container > img {
+    height: 400px;
+}
+
+/* -----> Description Content <----- */
+.Description-content h1 {
+    margin-bottom: 15px;
+    color: #f1f1f1;
+}
+.Description-content {
+    min-height: 400px;
+    padding: 15px 25px;
+    border-radius: 11px;
+    background-color: #1b1b1b;
+}
+.Description-content > div {
+    margin-bottom: 15px;
+}
+.Description-content > div > h3:last-of-type {
+    color: #ddd;
+}
+.Description-positive-vote {
+    color: #46d369;
+}
+.Description-negative-vote {
+    color: #d39b46;
+}
+.Description-content > p {
+    color: #ccc;
+    font-size: 17px;
+}
+
+/* -----> Description Media Query <----- */
+@media (max-width: 1300px) {
+    .Description-container {
+        width: 70%;
+    }
+}
+@media (max-width: 900px) {
+    .Description-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 650px) {
+    .Description-container > img {
+        display: none;
+    }
+}

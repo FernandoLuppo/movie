@@ -1,0 +1,7 @@
+export * from "./auth/Auth"
+export * from "./user/User"
+export * from "./movies/IMovies"
+export * from "./header/IHeader"
+export * from "./watch/IWatch"
+export * from "./input/IInput"
+export * from "./recoverPassword/IRecoverPassword"

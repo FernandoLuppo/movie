@@ -1,0 +1,15 @@
+/* -----> Watch Container <----- */
+.Watch-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111111;
+}
+
+/* -----> Watch Media Query <----- */
+@media (max-width: 700px) {
+    .Watch-container {
+        padding-top: 30px;
+    }
+}
