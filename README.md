@@ -85,7 +85,7 @@
 <h2>Página Watch</h2>
 <p>
   Na Página Watch o usuário irá conseguir ver o trailer do filme/série que ele escolheu, mais abaixo do filme tem seu resumo, nota e data de lançamento,
-  abaixo do resumo do o usuário irá se depara com alguns filmes recomendados para ele caso ele queria continuar assistindo após terminar seu filme,
+  abaixo do resumo o usuário irá se depara com alguns filmes recomendados para ele caso ele queria continuar assistindo após terminar seu filme,
   ele também terá acesso ao header com a searchbar o botão pra deslogar e a logo que leva de volta para a Página Home.
 </p>
 <img src=https://user-images.githubusercontent.com/95176596/222930679-20a6f3e2-f59b-4674-888f-1c8f872b89f8.png />
