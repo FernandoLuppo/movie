@@ -67,7 +67,7 @@
   para o projeto funcionar, após isso é necessário abrir dois terminais.
 </p>
 <p>
-  No primeiro terminal, na pasta <strong>"server"</strong> utilize o comando: <strong>npm run start:dev</strong> para inicializar o servidor.
+  No primeiro terminal, na pasta <strong>server</strong> utilize o comando: <strong>npm run start:dev</strong> para inicializar o servidor.
 </p>
 <p>
   No segundo terminal, na pasta <strong>client</strong> utilize o comando <strong>npm start</strong> para inicializar o React.
