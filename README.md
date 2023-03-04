@@ -8,9 +8,9 @@
   Nele o usuário poderá se cadastrar para assistir os trailers dos conteúdos presentes na API, caso
   o usuário perca sua senha ou deseje trocar ele poderá fazer isso via um email com código de verificação
 </p>
-  
+<br>
+
 <p>💻 As tecnologias usadas no projeto foram:
-   
 <p>
 <br> - TypeScript
 <br> - CSS
@@ -55,7 +55,7 @@
   Sobre o projeto, ele foi feito em cima da API do TMDB e o layout da Página Home baseado na Netflix, nele você precisará criar uma 
   conta para acessar a Página Home e a Página de Vídeo, as senhas são criptografadas para a segurança do usuário e todos os inputs tem validações, 
   caso o usuário não as atende irá aparecer uma caixa o informando seu erro para corrigi-lo, caso o próprio perca a senha ou deseje 
-  mudá lo, ele poderá fazer isso através do E-mail, os servidores tanto do MongoDB quanto o Render estão hospedados em Oregon (US West), 
+  mudá la, ele poderá fazer isso através do E-mail, os servidores tanto do MongoDB quanto o Render estão hospedados em Oregon (US West), 
   como o meu servidor MongoDB é gratuito existe um certo limite de acesso que ele pode suportar,  então caso não esteja conseguindo criar 
   sua conta utilize a conta de teste passada na Página Login, com ela você ainda terá acesso  a Página Home e a Página do filme/série que você escolher.
 </p>
