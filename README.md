@@ -1,9 +1,8 @@
 <div align="center">
 <h1> 🍿 LuppoTW Movies 🍿 </h1>
-<span> Desenvolvedor Back-End </span>
 </div>
   
-<p align="center">
+<p>
   Olá!! Esse é um projeto FullStack que criei, um site de filmes e séries feito em cima da API do TMDB.
   <br />
   Nele o usuário poderá se cadastrar para assistir os trailers dos conteúdos presentes na API, caso
