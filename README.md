@@ -64,8 +64,7 @@
 <p>
   Caso queira fazer um clone dessa aplicação, primeiramente instale as dependências tanto do <strong>"client"</strong> quanto do 
   <strong>"server"</strong> com npm install em suas respectivas pastas, após, é necessário colocar suas <strong>variáveis de ambiente</strong>
-  para o projeto funcionar, após isso é necessário abrir dois terminais
-  <strong>
+  para o projeto funcionar, após isso é necessário abrir dois terminais.
 </p>
 <p>
   No primeiro terminal, na pasta <strong>"server"</strong> utilize o comando: <strong>npm run start:dev</strong> para inicializar o servidor.
@@ -77,7 +76,7 @@
 <h2>Página Home</h2>
 <p>
   Na Página Home já ao carregar, o filme de exibição é gerado aleatoriamente da categoria "Em Alta", os demais filmes e séries são divididos
-  por categorias, além desse filtro, o usuário poderá procurar por um filme específico no search bar  que fica no header, lá também o 
+  por categorias, além desse filtro, o usuário poderá procurar por um filme específico no searchbar que fica no header, lá também o 
   usuário poderá deslogar a qualquer momento que quiser, após escolher um filme o usuário é levado para a página Watch.
 </p>
 <img src=https://user-images.githubusercontent.com/95176596/222930476-31c3b3bb-f2d8-47eb-948d-9227403e7d1d.png />
