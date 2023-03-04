@@ -45,6 +45,13 @@
 .Register-container input::placeholder {
     color: #fff;
 }
+.Register-container input:-webkit-autofill,
+.Register-container input:-webkit-autofill:hover, 
+.Register-container input:-webkit-autofill:focus, 
+.Register-container input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #999 inset !important;
+    -webkit-text-fill-color: #fff !important
+}
 .Register-container button {
     cursor: pointer;
     width: 100%;

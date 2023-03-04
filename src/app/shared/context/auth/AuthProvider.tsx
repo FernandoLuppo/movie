@@ -35,7 +35,6 @@ export const AuthProvider = ({ children }: { children:JSX.Element }) => {
             setId(res.data._id)
             navigate("/")
         }).catch(error => {    
-            console.log(error);
             let errors = error.response.data
             if(errors) errors.forEach((error:string) => alert(error))
         })
@@ -45,8 +44,7 @@ export const AuthProvider = ({ children }: { children:JSX.Element }) => {
     const register = async (name: string, email: string, password: string) => {
         await Api().post("/register", { name, email, password })
         .then(() => navigate("/login"))
-        .catch(error => {
-            console.log(error)            
+        .catch(error => {          
             let errors = error.response.data
             if(errors) errors.forEach((error:string) => alert(error)) 
         })
