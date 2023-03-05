@@ -41,10 +41,7 @@
   <strong>🚀 Link do Projeto: https://luppotw-movies-wxm4.onrender.com</strong>
 </p>
 <p>
-  <strong>🎬 Link do vídeo mostrando o projeto:</strong>
-</p>
-<p>
-  <strong>🖥️ Link do Postman:</strong>
+  <strong>🖥️ Link do Postman: https://documenter.getpostman.com/view/25854787/2s93JnVSdy</strong>
 </p>
 <p>
   <strong>🔒 Link do repositório da API do projeto: https://github.com/FernandoLuppo/movie-api</strong>
