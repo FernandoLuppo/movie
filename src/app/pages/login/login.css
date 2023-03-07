@@ -1,165 +1,165 @@
 /* -----> Login Container <----- */
 .Login-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    min-height: 100vh;
-    background-image: url("../../shared/images/login.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 100vh;
+  background-image: url("../../shared/images/login.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Login-container main {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 .Login-container section {
-    height: 100vh;
-    width: 620px;
-    padding: 0 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+  height: 100vh;
+  width: 620px;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .Login-container h1 {
-    font-size: 35px;
-    margin-bottom: 60px;
-    color: #fff;
+  font-size: 35px;
+  margin-bottom: 60px;
+  color: #fff;
 }
 
 /* -----> Login Warning <----- */
 .Login-warning {
-    width: 26%;
+  width: 26%;
 }
 .Login-warning > div {
-    padding: 10px 15px;
-    border-radius: 0px 0px 11px 0px;
-    color: #f7f7f7;
-    background-color: #1f1f1f;
+  padding: 10px 15px;
+  border-radius: 0px 0px 11px 0px;
+  color: #f7f7f7;
+  background-color: #1f1f1f;
 }
 .Login-warning > div p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* -----> Login Inputs <----- */
 .Login-container input {
-    width: 100%;
-    height: 60px;
-    padding: 0 30px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #999; 
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #999;
 }
 .Login-container input::placeholder {
-    color: #fff;
+  color: #fff;
 }
 .Login-container input:-webkit-autofill,
-.Login-container input:-webkit-autofill:hover, 
-.Login-container input:-webkit-autofill:focus, 
-.Login-container input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px #999 inset !important;
-    -webkit-text-fill-color: #fff !important
+.Login-container input:-webkit-autofill:hover,
+.Login-container input:-webkit-autofill:focus,
+.Login-container input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #999 inset !important;
+  -webkit-text-fill-color: #fff !important;
 }
 .Login-container button {
-    cursor: pointer;
-    width: 100%;
-    height: 60px;
-    margin-top: 20px;
-    border-radius: 30px;
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-    transition: 0.3s;
-    color: #fff;
-    background-color: #391a1a;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #fff;
+  background-color: #391a1a;
 }
 .Login-container button:hover {
-    background-color: #7e3030;
+  background-color: #7e3030;
 }
 .Login-container span {
-    text-align: center;
-    margin-top: 30px;
-    color: #d3d3d3;
+  text-align: center;
+  margin-top: 30px;
+  color: #d3d3d3;
 }
 .Login-container a {
-    font-size: 17px;
-    font-weight: bolder;
-    transition: 0.3s;
-    color: #4d99fc;
+  font-size: 17px;
+  font-weight: bolder;
+  transition: 0.3s;
+  color: #4d99fc;
 }
 .Login-container a:hover {
-    color: #73bbff;
+  color: #73bbff;
 }
 .Login-container > main > section > div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    gap: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 30px;
 }
 
 /* -----> Login Icons <----- */
 .Login-container svg {
-    cursor: pointer;
-    transition: 0.3s;
-    color: #391a1a;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #391a1a;
 }
 .Login-container svg:hover {
-    color: #7e3030;
+  color: #7e3030;
 }
 
 /* -----> Login Media Query <----- */
 @media (max-width: 1080px) {
-    .Login-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .Login-warning {
-        width: auto;
-        padding: 0px 5%;
-    }
-    .Login-warning > div {
-        border-radius: 11px;
-    }
-    .Login-container main {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Login-container section {
-        height: 85vh;
-        width: 90%;
-        padding: 0 35px;
-        margin-bottom: 20px;
-    }
-    .Login-container input {
-        width: 100%;
-        height: 50px;
-        padding: 0 28px;
-        font-size: 16px;
-    }
-    .Login-container button {
-        cursor: pointer;
-        width: 100%;
-        height: 50px;   
-        font-size: 16px;
-    }
-    .Login-container span {
-        font-size: 14px;
-    }
-    .Login-container a {
-        font-size: 16px;
-    }
+  .Login-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-warning {
+    width: auto;
+    padding: 0px 5%;
+  }
+  .Login-warning > div {
+    border-radius: 11px;
+  }
+  .Login-container main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Login-container section {
+    height: 85vh;
+    width: 90%;
+    padding: 0 35px;
+    margin-bottom: 20px;
+  }
+  .Login-container input {
+    width: 100%;
+    height: 50px;
+    padding: 0 28px;
+    font-size: 16px;
+  }
+  .Login-container button {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+  }
+  .Login-container span {
+    font-size: 14px;
+  }
+  .Login-container a {
+    font-size: 16px;
+  }
 }
